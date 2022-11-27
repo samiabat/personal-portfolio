@@ -1,5 +1,14 @@
 <template>
   <v-container>
+    <v-toolbar id="a" app color="indigo">
+      <v-toolbar-title class="headline" align="center">
+        <span class="mr-5">Home</span>
+        <span class="mr-5">Projects</span>
+        <span class="mr-5">Certificates</span>
+        <span class="mr-5">About</span>
+        <span>Contact</span>
+      </v-toolbar-title>
+    </v-toolbar>
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -12,10 +21,18 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to the Vuetify 3 Beta
+          SAMUEL ABATNEH PERSONAL PORTFOLIO
         </h1>
 
 
+        <p class="subheading font-weight-regular">
+          For help and collaboration with other Vuetify developers,
+          <br>please join our online
+          <a
+            href="https://community.vuetifyjs.com"
+            target="_blank"
+          >Discord Community</a>
+        </p>
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
           <br>please join our online
@@ -46,7 +63,14 @@
           </a>
         </v-row>
       </v-col>
-
+      <p class="subheading font-weight-regular">
+          For help and collaboration with other Vuetify developers,
+          <br>please join our online
+          <a
+            href="https://community.vuetifyjs.com"
+            target="_blank"
+          >Discord Community</a>
+        </p>
       <v-col
         class="mb-5"
         cols="12"
